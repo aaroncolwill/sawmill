@@ -1,0 +1,26 @@
+{
+  "name": "sawmill",
+  "version": "0.1.0",
+  "description": "Simple synchronous logging to JSON",
+  "main": "./lib/sawmill.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "log",
+    "logging",
+    "json",
+    "simple",
+    "synchronous"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aaroncolwill/sawmill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aaroncolwill/sawmill/issues"
+  },
+  "author": "Aaron Colwill <git@aaroncolwill.com> (http://github.com/aaroncolwill)",
+  "license": "MIT"
+}
