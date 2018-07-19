@@ -1,6 +1,6 @@
 {
-  "name": "sawmill",
-  "version": "0.1.0",
+  "name": "sawmilljs",
+  "version": "1.0.0",
   "description": "Simple synchronous logging to JSON",
   "main": "./lib/sawmill.js",
   "scripts": {
