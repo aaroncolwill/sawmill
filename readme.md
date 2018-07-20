@@ -1,4 +1,4 @@
-![SawmillJS](https://i.imgur.com/r766OoD.png "SawmillJS")
+![SawmillJS](https://i.imgur.com/AEQzPpp.png "SawmillJS")
 
 # SawmillJS
 ## Quickly cut logs down to size and convert to valid JSON 
