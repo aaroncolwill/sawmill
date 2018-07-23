@@ -9,7 +9,7 @@ SawmillJS is a logging utility that stores valid JSON, many other logging utilit
 
 Install as a dependency
 
-``` npm install sawmill ```
+``` npm i sawmill ```
 
 Require the utility with
 
@@ -75,3 +75,8 @@ There may be some support for custom tags in the future.
 
 1. Auto Log rotation
 2. Auto tagging content for a specific log via predicates/selectors
+
+# Known issues
+
+* Pug view engine mangles prototype extensions
+    * Fix: set 'extendObject' to false when calling: *.createLog({ extendObject: false })* - needs a better fix

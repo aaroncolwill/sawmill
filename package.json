@@ -1,11 +1,11 @@
 {
   "name": "sawmilljs",
-  "version": "1.0.3",
+  "version": "1.0.9",
   "description": "Simple synchronous logging to JSON",
   "main": "./lib/sawmill.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -w"
   },
   "keywords": [
     "log",
@@ -22,5 +22,8 @@
     "url": "https://github.com/aaroncolwill/sawmill/issues"
   },
   "author": "Aaron Colwill <git@aaroncolwill.com> (http://github.com/aaroncolwill)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
 }
